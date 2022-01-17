@@ -15,3 +15,4 @@ The resources herein shall host my progress, faults and all, and will serve as a
 * We talked more about studying techniques
 * Addressing the separation of concerns (HTML/CSS/JS)
 * The HW assignment was to rebuild the front-page of 'bbc.com' using only HTML; finish a course concerning the basics of HTML/CSS.
+* View Assignment: <a href="https://need4swede.github.io/100Dev/Class-002/bbc.html" target="_blank">BBC Website</a>
