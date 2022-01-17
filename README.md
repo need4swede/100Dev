@@ -9,10 +9,10 @@ The resources herein shall host my progress, faults and all, and will serve as a
 * We went over the basics of HTML and how the Web works.
 * We discussed learning techniques to aid us on our journey
 * The HW assignment was to appropriately format a baking recipe using HTML elements; watch some learning videos; finish a learning course
-* * View Assignment: <a href="https://need4swede.github.io/100Dev/Class-001/brownies.html" target="_blank">Brownies Recipe</a>
+* * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-001/brownies.html" target="_blank">Brownies Recipe</a>
 
 ### Class-002
 * We talked more about studying techniques
 * Addressing the separation of concerns (HTML/CSS/JS)
 * The HW assignment was to rebuild the front-page of 'bbc.com' using only HTML; finish a course concerning the basics of HTML/CSS.
-* * View Assignment: <a href="https://need4swede.github.io/100Dev/Class-002/bbc.html" target="_blank">BBC Website</a>
+* * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-002/bbc.html" target="_blank">BBC Website</a>
