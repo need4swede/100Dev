@@ -1,4 +1,3 @@
-# 100Dev!
 ### Full-Stack WebDev Boot Camp
 This is my journey of becoming a FS Web Developer in pursuit of becoming a Software Engineer.
 
