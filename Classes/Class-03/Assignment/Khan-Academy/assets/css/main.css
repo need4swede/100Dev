@@ -1,0 +1,99 @@
+/* Make all nav into an inline */
+
+header nav li {
+    margin-top: 5px;
+    display: inline;
+}
+
+/* Move the right half of the nav to the right */
+
+header nav section {
+    float: right;
+    margin-right: 12%;
+}
+
+/* Set the gap between the links on the right nav */
+
+header nav section li{
+    margin-right: 15px;
+}
+
+/* The position of the main header image / link */
+
+a {
+    text-decoration: none;
+}
+
+header > a {
+    color: blue;
+    position: absolute;
+    top: 5px;
+    left: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+}
+
+/* Custom sizing for the header image */
+
+header > a img {
+    width: 75%;
+    height: auto;
+}
+
+/* Horizontal line under header */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* Khan Students Image */
+
+body > img {
+    display: inline;
+    width: 450px;
+    float: left;
+    margin-left: 170px;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+
+section > h1 {
+    font-size: 36px;
+    margin-top: 115px;
+}
+
+p {
+    font-size: 13px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+section > h1, p {
+    margin-right: 300px;
+}
+
+span {
+    background-color: rgb(60, 111, 253);
+    border-bottom: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    margin-right: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: 10.5px;
+}
+
+body section h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 32px;
+    margin-top: 235px;
+    margin-left: 465px;
+    position: absolute;
+}
