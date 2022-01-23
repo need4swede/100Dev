@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="assets/css/bbc.css">
+        <title>BBC Front Page</title>
+    </head>
+    <body>
+            <nav class="navbar"> <!-- Top Navigation Bar -->
+                <ul class="navbar-list">
+                    <li><a class="navbar-title" href="http://bbc.com">BBC</a></li>
+                    <li><a id="sign-in" class="navbar-title" href="https://account.bbc.com/signin">Sign in</a></li>
+                    <li><a class="navbar-title" href="http://bbc.com" target="_blank">Home</a></li>
+                    <li><a class="navbar-title" href="https://www.bbc.com/news" target="_blank">News</a></li>
+                    <li><a class="navbar-title" href="http://bbc.com/sport" target="_blank">Sport</a></li>
+                    <li><a class="navbar-title" href="http://bbc.com/reel" target="_blank">Reel</a></li>
+                    <li><a class="navbar-title" href="http://bbc.com/worklife" target="_blank">Worklife</a></li>
+                    <li><a class="navbar-title" href="http://bbc.com/travel" target="_blank">Travel</a></li>
+                    <li><a class="navbar-title" href="http://bbc.com/future" target="_blank">Future</a></li>
+                    <li><a class="navbar-title" href="http://bbc.com/culture" target="_blank">Culture</a></li>
+                    <li>
+                        <select name="sample" onchange="location = this.value;"> 
+                            <option value="">More</option> 
+                            <option value="https://www.bbc.com/culture/music"><a href="https://www.bbc.com/culture/music">Music</a></option> 
+                            <option value="https://www.bbc.com/culture/music"><a href="https://www.bbc.co.uk/schedules/p00fzl9m">TV</a></option>
+                            <option value="https://www.bbc.com/culture/music"><a href="https://www.bbcselect.com/">BBC Select</a></option>
+                            <option value="https://www.bbc.com/culture/music"><a href="https://www.bbc.com/weather">Weather</a></option>
+                            <option value="https://www.bbc.com/culture/music"><a href="https://www.bbc.co.uk/sounds">Sounds</a></option>   
+                        </select> 
+                    </li>
+                    <li>
+                        <input id="search-bar" type="text" placeholder="Search">
+                        <a href="https://www.bbc.co.uk/search?q="><img src="https://github.com/need4swede/100Dev/blob/main/Classes/class-02/assets/images/search.png?raw=true"
+                        width="13" height="13"></a>
+                    </li>
+                </ul>
+            </nav>
+            <h2>Welcome to BBC.com</h2>
+            <p>Thursday, 13 August</p>
+                <section class="headline-stories"> <!-- Headline Stories -->
+                    <div class="headline-stories-content"> <!-- Content of the Headline Stories -->
+                        <article class="primary-headline-story"> <!-- The Big Headline -->
+                            <a href="https://www.bbc.com/news/world-middle-east-53770859" target="_blank"> <img src="https://github.com/need4swede/100Dev/blob/main/Classes/Class-02/assets/images/israel.jpg?raw=true" alt="israel"
+                                width="580"
+                                height="315" /></a>
+                            <h2 class="headline-article-title">Israel and UAE strike a historical peace deal</h2>
+                            <p class="headline-article-subtitle">Israel and the UAE agree to normalize relations, marking the third Israel-Arab peace deal</p>
+                            <a class="news-category" href="https://www.bbc.com/news/world/middle_east"><h5>| MIDDLE EAST</h5></a>
+                        </article>
+                        <div class="secondary-headline-stories"> <!-- Secondary Headlines -->
+                            <article class="secondary-headline-story-1"> <!-- Secondary Headline #1 -->
+                                <a href="https://www.bbc.com/news/world-us-canada-53742684" target="_blank"><img src="https://github.com/need4swede/100Dev/blob/main/Classes/Class-02/assets/images/flag.jpg?raw=true" alt="Flag"
+                                    width="287"
+                                    height="157" /></a>
+                                <h4 class="headline-article-title">Americans Go Home: Tension at Canada-US Border</h4>
+                                <a class="news-category" href="https://www.bbc.com/news/world/us_and_canada"><h5>| CANADA</h5></a>
+                            </article>
+                            <article class="secondary-headline-story-2"> <!-- Secondary Headline #2 -->
+                                <a href="https://www.bbc.com/news/health-53741966" target="_blank"><img src="https://github.com/need4swede/100Dev/blob/main/Classes/Class-02/assets/images/vaccine.jpg?raw=true" alt="Vaccine"
+                                    width="287"
+                                    height="157" /></a>
+                                <h4 class="headline-article-title">How will the world vaccinate seven billion people?</h4>
+                                <a class="news-category" href="https://www.bbc.co.uk/news/health"><h5>| HEALTH</h5></a>
+                            </article>
+                            <article class="secondary-headline-story-3"> <!-- Secondary Headline #3 -->
+                                <a href="https://www.bbc.com/worklife/article/20200812-the-online-work-gyms-that-help-spur-productivity" target="_blank"><img src="https://github.com/need4swede/100Dev/blob/main/Classes/Class-02/assets/images/headphones.jpg?raw=true" alt="Headphones"
+                                    width="287"
+                                    height="157" /></a>
+                                <h4 class="headline-article-title">The online 'productivity gyms'</h4>
+                                <a class="news-category" href="https://www.bbc.com/worklife"><h5>| WORKLIFE</h5></a>
+                            </article>
+                            <article class="secondary-headline-story-4"> <!-- Secondary Headline #4 -->
+                                <a href="https://www.bbc.com/culture/article/20200812-vctor-jara-the-folk-singer-murdered-for-his-music" target="_blank"><img src="https://github.com/need4swede/100Dev/blob/main/Classes/Class-02/assets/images/artist.jpg?raw=true" alt="Artist"
+                                    width="287"
+                                    height="157" /></a>
+                                <h4 class="headline-article-title">The folk singer murdered for his music</h4>
+                                <a class="news-category" href="https://www.bbc.com/culture/"><h5>| CULTURE</h5></a>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            <h2>| <a class="news-title" href="https://www.bbc.com/news" target="_blank">News</a></h2>
+                <section class="news-stories"> <!-- News Stories -->
+                    <div class="news-stories-content"> <!-- New Stories Content -->
+                        <article class="news-story"> <!-- News Story #1 -->
+                            <a href="https://www.bbc.com/news/election-us-2020-53754294" target="_blank"> <img src="https://github.com/need4swede/100Dev/blob/main/Classes/Class-02/assets/images/biden.jpg?raw=true" alt="Biden"
+                                width="350"
+                                height="195" /></a>
+                            <h3 class="news-article-title">Biden and Harris say Trump has left US 'in tatters'</h3>
+                            <p class="news-article-subtitle">Joe Biden and running mate Kamala Harris call President Donald Trump a "whinning" incompetent leader</p>
+                            <a class="news-category" href="https://www.bbc.com/news/election/us2020" target="_blank"><h5>| US ELECTION 2020</h5></a>
+                        </article>
+                        <article class="news-story"> <!-- News Story #2 -->
+                            <a href="https://www.bbc.com/news/world-europe-53761747" target="_blank"><img src="https://github.com/need4swede/100Dev/blob/main/Classes/Class-02/assets/images/peace.jpg?raw=true" alt="Flag"
+                                width="350"
+                                height="195" /></a>
+                            <h3 class="news-article-title">Women form 'solidarity chains' in Belarus protest</h3>
+                            <p class="news-article-subtitle">Women take to the streets of Minsk dressed in white as they demand an end to police brutality</p>
+                            <a class="news-category" href="https://www.bbc.com/news/world/europe" target="_blank"><h5>| EUROPE</h5></a>
+                        </article>
+                        <article class="news-story"> <!-- News Story #3 -->
+                            <a href="https://www.bbc.com/news/world-us-canada-53761744" target="_blank"><img src="https://github.com/need4swede/100Dev/blob/main/Classes/Class-02/assets/images/trump.jpg?raw=true" alt="Vaccine"
+                                width="350"
+                                height="195" /></a>
+                            <h3 class="news-article-title">Trump says low-pressure shower heads won't wash</h3>
+                            <p class="news-article-subtitle">The US calls for rules to be eased after Donald Trump complained of issues washing his hair.</p>
+                          <h5>| <a class="news-category" href="https://www.bbc.com/news/world/us_and_canada" target="_blank">US &amp; CANADA</a></h5>
+                        </article>
+                    </div>
+                </section>
+    </body>
+</html>
