@@ -17,16 +17,17 @@ The resources herein shall host my progress, faults and all, and will serve as a
 * We talked more about studying techniques
 * Addressing the separation of concerns (HTML/CSS/JS)
 * The HW assignment was to rebuild the front-page of 'bbc.com' using only HTML; finish a course concerning the basics of HTML/CSS.
-* * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-02/bbc.html" target="_blank">BBC Website</a>
+* * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-02/Assignment/bbc.html" target="_blank">BBC Website</a>
 
 #### Class - 03
 * HTML Structure Review
 * The Box Model of Websites
 * The HW assignment was to rebuild the front-page of 'Tech Crunch' and 'Khan Academy' using only HTML; watch some videos.
-* * View Assignment: <a href="#" target="_blank">TBD</a>
+* * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-04/Assignment/Khan-Academy/index.html" target="_blank">Khan Academy</a>
+* * * View Assignment: <a href="#" target="_blank">TBD</a>
 
 #### Class - 04
 * Intro to CSS
 * Structure of Relationships
 * The HW assignment was to rebuild a sample page given in class using HTML/CSS.
-* * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-04/index.html" target="_blank">Learning w/ Leon &amp; Friends</a>
+* * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-04/Assignment/index.html" target="_blank">Learning w/ Leon &amp; Friends</a>
