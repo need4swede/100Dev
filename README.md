@@ -24,7 +24,7 @@ The resources herein shall host my progress, faults and all, and will serve as a
 * The Box Model of Websites
 * The HW assignment was to rebuild the front-page of 'Tech Crunch' and 'Khan Academy' using only HTML; watch some videos.
 * * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-04/Assignment/Khan-Academy/index.html" target="_blank">Khan Academy</a>
-* * * View Assignment: <a href="#" target="_blank">TBD</a>
+* * View Assignment: <a href="#" target="_blank">TBD</a>
 
 #### Class - 04
 * Intro to CSS
