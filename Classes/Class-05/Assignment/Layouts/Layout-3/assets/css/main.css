@@ -1,0 +1,61 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0
+}
+
+body {
+    text-align: center;
+    background: lightgrey;
+}
+
+header, footer {
+    height: 150px;
+    border: 1px solid grey;
+    clear: both;
+}
+
+header {
+    border-top: 2px solid grey;
+}
+
+footer {
+    border-bottom: 2px solid grey;
+}
+
+.twenty {
+    border: 1px solid grey;
+    height: 500px;
+    width: 20%;
+    float: left;
+}
+
+.fourty {
+    border: 1px solid grey;
+    height: 500px;
+    width: 40%;
+    float: left;
+}
+
+/* .single section {
+    border: 1px solid grey;
+    height: 218px;
+    width: 100%;
+    float: left;
+}
+
+.doubles section {
+    border: 1px solid grey;
+    height: 270px;
+    width: 40%;
+    float: left;
+}
+
+.doubles > section + section {
+    width: 60%;
+} */
+
+h1, h2, h3, h4 {
+    display: none;
+}

@@ -1,0 +1,43 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0
+}
+
+body {
+    text-align: center;
+    background: lightgrey;
+}
+
+header, footer {
+    height: 150px;
+    border: 1px solid grey;
+    clear: both;
+}
+
+header {
+    border-top: 2px solid grey;
+}
+
+footer {
+    border-bottom: 2px solid grey;
+}
+
+.triples section {
+    border: 1px solid grey;
+    height: 218px;
+    width: 33.3%;
+    float: left;
+}
+
+.doubles section {
+    border: 1px solid grey;
+    height: 270px;
+    width: 50%;
+    float: left;
+}
+
+h1, h2, h3, h4 {
+    display: none;
+}
