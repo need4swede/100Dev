@@ -33,7 +33,7 @@ The resources herein shall host my progress, faults and all, and will serve as a
 * The HW assignment was to rebuild a sample page given in class using HTML/CSS.
 * * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-04/Assignment/index.html" target="_blank">Learning w/ Leon &amp; Friends</a>
 
-### Week 5
+### Week 3
 
 #### Class - 05
 * CSS Structure Review
