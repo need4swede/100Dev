@@ -32,3 +32,11 @@ The resources herein shall host my progress, faults and all, and will serve as a
 * Structure of Relationships
 * The HW assignment was to rebuild a sample page given in class using HTML/CSS.
 * * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-04/Assignment/index.html" target="_blank">Learning w/ Leon &amp; Friends</a>
+
+### Week 5
+
+#### Class - 05
+* CSS Structure Review
+* The Box Model Review and Understanding Border-Box
+* The HW assignment was to recreate the layout of some samples using the box model and float.
+* * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-05/Assignment/Layouts/Layout-1/index.html" target="_blank">Layout 1, </a><a href="https://need4swede.github.io/100Dev/Classes/Class-05/Assignment/Layouts/Layout-1/index.html" target="_blank">Layout 2, </a><a href="https://need4swede.github.io/100Dev/Classes/Class-05/Assignment/Layouts/Layout-3/index.html" target="_blank">Layout 3</a>
