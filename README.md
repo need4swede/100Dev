@@ -52,4 +52,4 @@ The resources herein shall host my progress, faults and all, and will serve as a
 
 #### Class - 07
 * Float and Layout review
-* * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-07/Assignment/Layout-Pain/index.html" target="_blank">15min of Pain - Responsive</a>
+* * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-07/Assignment/Layouts/Layout-Pain/index.html" target="_blank">15min of Pain - Responsive</a>
