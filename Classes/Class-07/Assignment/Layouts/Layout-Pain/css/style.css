@@ -1,0 +1,189 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Remove standard formatting from headers */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+     margin-top: 0;
+     margin-bottom: 0;
+     font-size: 1em;
+     font-weight: normal;
+ }
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/* Set base font-size */
+html {
+     font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* MOBILE MODE */
+
+body {
+     background: rgb(255, 255, 255);
+     color: white;
+     width: 100%;
+     text-align: center;
+     font-size: 16px;
+}
+
+.container {
+     background: rgb(64, 124, 255);
+     font-size: 1.5em;
+}
+
+header, footer {
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+     height: 120px;
+     margin: 10px 0;
+     padding: 45px 0;
+}
+
+section {
+     height: 90px;
+     border: 1px solid black;
+     margin: 2% 2%;
+     padding: 30px 0;
+     border-radius: 15px;
+}
+
+span {
+     display: none;
+}
+
+h1 {
+     display: none;
+}
+
+.mobile {
+     display: block;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* TABLET MODE */
+
+@media screen and (min-width: 720px) {
+
+     .mobile {
+          display: none;
+     }
+
+     .tablet {
+          display: inline;
+     }
+
+     .container {
+          background:rgb(65, 146, 45);
+     }
+
+     h1 {
+          font-size: 1.15em;
+     }
+}
+
+/* LAPTOP MODE */
+
+@media screen and (min-width: 1000px) {
+
+     .mobile {
+          display: none;
+     }
+
+     .tablet {
+          display: none;
+     }
+
+     .laptop {
+          display: block;
+     }
+
+     .container {
+          background:rgb(45, 64, 146);
+          font-size: 1.35em;
+     }
+
+     footer {
+          clear: both;
+     }
+
+     h1 {
+          font-size: 1.25em;
+     }
+
+     span.tablet, span.laptop {
+          display: inline;
+     }
+     
+     section {
+          float: left;
+          margin: 0 auto;
+          margin-bottom: 10px;
+          width: 33.3%;
+          border-radius: 0px;
+          padding: 12.5% 0;
+     }
+
+}
+
+/* DESKTOP MODE */
+
+@media screen and (min-width: 1280px) {
+
+     .mobile {
+          display: none;
+     }
+
+     .tablet {
+          display: none;
+     }
+
+     .laptop {
+          display: none;
+     }
+
+     .desktop {
+          display: block;
+     }
+
+     .container {
+          background:rgb(146, 45, 53);
+          font-size: 1.25em;
+     }
+
+     header, footer {
+          padding: 3% 0;
+     }
+
+     h1 {
+          font-size: 1.45em;
+     }
+
+     span.tablet, span.laptop, span.desktop {
+          display: inline;
+     }
+}
