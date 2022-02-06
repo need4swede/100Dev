@@ -53,3 +53,9 @@ The resources herein shall host my progress, faults and all, and will serve as a
 #### Class - 07
 * Float and Layout review
 * * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-07/Assignment/Layouts/Layout-Pain/index.html" target="_blank">15min of Pain - Responsive</a>
+
+#### Class - 08
+* Float and Layout review+
+* Networking, Networking, Networking
+* HW assignment was to recreate the layout of some sites, including the three we did previously
+* * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-08/Assignment/BBC/index.html" target="_blank">BBC</a>
