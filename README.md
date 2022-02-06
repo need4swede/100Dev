@@ -59,5 +59,5 @@ The resources herein shall host my progress, faults and all, and will serve as a
 * Write BAD CODE!
 * Networking, Networking, Networking
 * HW assignment was to recreate the layout of some sites, including the three we did previously (BAD CODE EXERCISE)
-* * View Assignment: Prev. Layouts <a href="https://need4swede.github.io/100Dev/Classes/Class-08/Assignment/BBC/index.html" target="_blank">BBC</a>
-* * View Assignment: New Layouts <a href="https://need4swede.github.io/100Dev/Classes/Class-08/Assignment/Layout-1/index.html" target="_blank">Layout-1</a>
+* * View Assignment: Prev. Layouts: <a href="https://need4swede.github.io/100Dev/Classes/Class-08/Assignment/BBC/index.html" target="_blank">BBC</a>
+* * View Assignment: New Layouts: <a href="https://need4swede.github.io/100Dev/Classes/Class-08/Assignment/Layout-1/index.html" target="_blank">Layout-1</a>
