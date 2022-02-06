@@ -1,0 +1,224 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html {
+     font-size: 62.5%;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background: rgb(20, 24, 39);
+     font-size: 1.4rem;
+     color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     margin: 0;
+     padding: 0;
+}
+
+h1 {
+     font-size: 6.5rem;
+     padding-bottom: 3%;
+}
+
+h2 {
+     font-size: 5rem;
+     padding-top: 10%;
+     padding-bottom: 3%;
+}
+
+h3 {
+     font-size: 3rem;
+     padding-top: 3%;
+     padding-bottom: 3%;
+}
+
+h4 {
+     font-size: 2rem;
+     padding-bottom: 3%;
+}
+
+a {
+     text-decoration: none;
+}
+
+p {
+     font-size: 2rem;
+     padding-bottom: 2.5%;
+}
+
+aside {
+     font-size: 2rem;
+     padding-bottom: 5%;
+}
+
+.first-section span {
+     display: block;
+     font-size: 1.4rem;
+     padding-bottom: 2.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+     background: rgb(129, 143, 168);
+     margin: 0;
+     padding: 0;
+     padding-top: .5%;
+     padding-bottom: 0%;
+     display: block;
+}
+
+footer {
+
+}
+
+footer span {
+     display: block;
+}
+
+footer aside {
+     font-size: 1.4rem;
+     padding: 0;
+}
+
+footer section {
+     padding: 2% 5%;
+}
+
+footer > section {
+     float: left;
+}
+
+footer > section img {
+     margin-bottom: 10%;
+}
+
+footer > section + section {
+     float: right;
+     padding-top: 3.5%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+nav li {
+     float: left;
+     list-style-type: none;
+     padding-left: 5%;
+}
+
+nav ul {
+     width: 33.3333%;
+     padding-left: 1.5%;
+}
+
+nav ul:after {
+     clear: both;
+}
+
+nav img {
+     /* padding-left: 38.5%; */
+     width: 20%;
+     position: relative;
+     left: 38.5%;
+     top: 2.5%;
+
+}
+
+nav > a {
+     /* padding-left: 38.5%; */
+     float: right;
+     padding-right: 5%;
+     margin: 0 auto;
+}
+
+.section {
+     margin: 0 auto;
+     text-align: center;
+}
+
+.section p {
+     width: 50%;
+     margin: 0 auto;
+}
+
+.first-section {
+     background: rgb(129, 143, 168);
+}
+
+.second-section {
+     background: white;
+     color: rgb(23, 31, 68);
+}
+
+.second-section p {
+     padding-bottom: 10%;
+}
+
+
+.third-section * {
+     background: rgb(186, 196, 214);
+     color: rgb(23, 31, 68);
+}
+
+.third-section section {
+     float: left;
+     width: 50%;
+}
+
+.third-section > section > div {
+     border: 1px solid rgb(49, 79, 133);
+     background: rgb(49, 79, 133);
+     width: 40%;
+     height: 22.5%;
+     margin: 10% auto 5% auto;
+}
+
+section > p + a {
+     font-size: 2rem;
+     display: block;
+     width: 25%;
+     margin: 0 auto 5% auto;
+     border: 1px solid rgb(49, 79, 133);
+     padding: 2% 5%;
+}
+
+.fourth-section {
+     clear: both;
+     padding-bottom: 2.5%;
+}
+
+.fourth-section p {
+     padding: 0 0 2.5% 0;
+}
+
+.fourth-section a {
+     font-size: 2rem;
+     display: block;
+     width: 15%;
+     border: 1px solid rgb(49, 79, 133);
+}
