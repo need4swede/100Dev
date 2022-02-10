@@ -1,0 +1,227 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html {
+     font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     margin: 0;
+     padding: 0;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-size: 1.4rem;
+     background: rgb(246, 249, 252);
+     color: rgb(18, 18, 56);
+     font-family: "Mukta", "Helvetica Neue", "Helvetica"
+}
+
+h1 {
+     font-size: 5.5rem;
+     padding-top: 4%;
+     padding-bottom: 4%;
+}
+
+h3 {
+     font-size: 2.5rem;
+}
+
+p {
+     font-size: 1.8rem;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header > a, nav * {
+     display: none;
+}
+
+header img, header h3 {
+     float: left;
+}
+
+header img {
+     padding-top: 6%;
+     padding-left:2%;
+     margin-left: 2%;
+     width: 8%
+}
+
+header h3 {
+     padding-top: 6%;
+     padding-left: 25%;
+     padding-bottom: 5%;
+     font-size: 3rem
+}
+
+main {
+     clear: both;
+     border-top: 2px solid rgba(0, 0, 0, 0.15);
+     padding-top: 5%;
+}
+
+.first-section {
+     padding-left: 5%;
+     padding-bottom: 5%;
+}
+
+.first-section h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: grey;
+}
+
+.first-section input {
+     width: 90%;
+     height: 8%;
+     margin-bottom: 4%;
+}
+
+.first-section a {
+     font-size: 3rem;
+     text-decoration: none;
+     background: rgb(18, 18, 56);
+     border: 1px solid rgb(18, 18, 56);
+     color: rgb(246, 249, 252);
+     padding: 1% 36%;
+}
+
+.first-section p {
+    margin-top: 6%;
+    width: 90%
+}
+
+.first-section img {
+    width: 100%;
+    float: right;
+    padding-right: 3%;
+    padding-bottom: 15%;
+}
+
+.second-section * {
+    clear: both;
+    text-align: center;
+}
+
+.second-section p {
+    margin: 10% auto;
+    width: 90%;
+}
+
+.second-section > section {
+     margin-bottom: 10%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media screen and (max-width: 767px) and (min-width: 548px)  {
+     header img {
+          display: none;
+     }
+
+     header h3 {
+          float: left;
+          font-size: 5.5rem;
+          padding: 8%;
+     }
+
+     nav * {
+          display: block;
+          float:right;
+          padding: 2% 5%;
+          width: 50%;
+     }
+
+     .header-link {
+          border: 10px solid rgb(246, 249, 252);
+          background: rgb(18, 18, 56); 
+          width: 50%;
+     }
+
+     .header-link a {
+          text-decoration: none;
+          color: rgb(246, 249, 252);
+     }
+}
+
+@media screen and (min-width: 768px) {
+
+     header h3 {
+          padding: 0;
+          margin: 0;
+     }
+
+     header img {
+          display: none;
+     }
+
+     header * {
+          padding: 0;
+          margin: 0;
+          display: inline;
+     }
+
+     header h3 {
+          float: left;
+          padding-left: 3%;
+     }
+
+     .header-link {
+          float: left;
+     }
+
+     .header-link a {
+          padding-left: 185px;
+     }
+
+     header > a {
+          display: inline;
+          float: right;
+          padding-right: 3%; 
+     }
+
+     .first-left {
+          float: left;
+          width: 50%;
+     }
+
+     .first-right {
+          float: right;
+          width: 50%;
+     }
+
+     .second-section {
+          width: 100%
+     }
+
+     .second-section > section * {
+          float: left;
+          width: 25%;
+     }
+
+}
