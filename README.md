@@ -61,3 +61,14 @@ The resources herein shall host my progress, faults and all, and will serve as a
 * HW assignment was to recreate the layout of some sites, including the three we did previously (BAD CODE EXERCISE)
 * * View Assignment: Prev. Layouts: <a href="https://need4swede.github.io/100Dev/Classes/Class-08/Assignment/BBC/index.html" target="_blank">BBC</a>
 * * View Assignment: New Layouts: <a href="https://need4swede.github.io/100Dev/Classes/Class-08/Assignment/Layout-1/index.html" target="_blank">Layout-1, </a><a href="https://need4swede.github.io/100Dev/Classes/Class-08/Assignment/Layout-2/index.html" target="_blank">Layout-2</a>
+
+### Week 5
+
+#### Class - 09
+* Layout review cont.
+* * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-10/Assignment/Restaurant/index.html" target="_blank">Restaurant</a>
+
+#### Class - 10
+* Brace yourselves - motivation
+* * View Assignment: Assignments Cont.
+
