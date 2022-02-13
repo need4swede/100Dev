@@ -39,7 +39,7 @@ body {
 /*************************/
 
 body {
-     background-image: url("/Users/afshari/Programming/Dev100/Classes/Class-10/Assignment/Restaurant/img/background.jpg"); 
+     background-image: url("https://github.com/need4swede/100Dev/blob/main/Classes/Class-10/Assignment/Restaurant/img/background.jpg?raw=true"); 
      background-position: center center;
      background-repeat: no-repeat;
      background-attachment: fixed;
@@ -48,7 +48,7 @@ body {
 }
 
 body > section {
-     background-image: url("/Users/afshari/Programming/Dev100/Classes/Class-10/Assignment/Restaurant/img/background-2.jpg");
+     background-image: url("https://github.com/need4swede/100Dev/blob/main/Classes/Class-10/Assignment/Restaurant/img/background-2.jpg?raw=true");
      background-position: center;
      background-repeat: no-repeat;
      background-attachment: scroll;
@@ -57,26 +57,26 @@ body > section {
 }
 
 body > section + section {
-     background-image: url("/Users/afshari/Programming/Dev100/Classes/Class-10/Assignment/Restaurant/img/background-3.jpg"); 
+     background-image: url("https://github.com/need4swede/100Dev/blob/main/Classes/Class-10/Assignment/Restaurant/img/background-3.jpg?raw=true"); 
      background-size: cover;
      background-color: #ffffff;
 }
 
 body > section + section + section {
-     background-image: url("/Users/afshari/Programming/Dev100/Classes/Class-10/Assignment/Restaurant/img/background-4.jpg");
+     background-image: url("https://github.com/need4swede/100Dev/blob/main/Classes/Class-10/Assignment/Restaurant/img/background-4.jpg?raw=true");
      background-attachment: fixed; 
      background-size: cover;
      background-color: #ffffff;
 }
 
 body > section + section + section + section {
-     background-image: url("/Users/afshari/Programming/Dev100/Classes/Class-10/Assignment/Restaurant/img/background-3.jpg");
+     background-image: url("https://github.com/need4swede/100Dev/blob/main/Classes/Class-10/Assignment/Restaurant/img/background-3.jpg?raw=true");
      background-size: cover;
      background-color: #ffffff;
 }
 
 footer {
-     background-image: url("/Users/afshari/Programming/Dev100/Classes/Class-10/Assignment/Restaurant/img/background-3.jpg");
+     background-image: url("https://github.com/need4swede/100Dev/blob/main/Classes/Class-10/Assignment/Restaurant/img/background-3.jpg?raw=true");
      background-size: cover;
      background-position: bottom;
      background-color: #ffffff;
