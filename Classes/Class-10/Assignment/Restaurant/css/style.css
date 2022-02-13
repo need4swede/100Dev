@@ -329,10 +329,6 @@ body > section + section + section > span + span + span {
      letter-spacing: 2px;
 }
 
-/* body > section + section + section > section {
-     width: 100%;
-} */
-
 /* Schedule - Days*/
 body > section + section + section > section section {
      float: right;
