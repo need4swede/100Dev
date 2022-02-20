@@ -12,7 +12,6 @@ The resources herein shall host my progress, faults and all, and will serve as a
 * We discussed learning techniques to aid us on our journey
 * The HW assignment was to appropriately format a baking recipe using HTML elements; watch some learning videos; finish a learning course
 * * View Assignment: <a href="https://need4swede.github.io/100Dev/Classes/Class-01/brownies.html" target="_blank">Brownies Recipe</a>
-* * * View Assignment: <a href="https://need4swede.github.io/Python/ODIN/doc/index.html" target="_blank">Brownies Recipe</a>
 
 #### Class - 02
 * We talked more about studying techniques
